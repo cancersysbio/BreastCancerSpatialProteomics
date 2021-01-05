@@ -2,7 +2,7 @@
 
 Data 
 
-“DSP_protein_discovery cohort.txt” contains DSP protein counts used to generate Figures 1c-d, 2, 3, and 4. 
+“DSP_protein_discovery_cohort.txt” contains DSP protein counts used to generate Figures 1c-d, 2, 3, and 4. 
 “bulk_RNA_data.txt” contains the bulk RNA expression data used for model comparison in Figure 4. 
 “DSP_protien_validation_cohort.txt” contains the DSP protein counts for the 29 cases  in the text cohort used to generate Figure 5 and corresponding Extended Data 9.
 “perimetric_complexity.txt” contains the perimetric complexity values per region used for Extended Data 8. 
