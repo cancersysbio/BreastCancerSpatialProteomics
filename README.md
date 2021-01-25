@@ -26,7 +26,7 @@
 
 ## Steps to run the code
 
-To run the code please first make sure that you have miniconda (https://docs.conda.io/en/latest/miniconda.html) or conda (https://docs.conda.io/) installed.
+To run the code please first make sure that you have [miniconda](https://docs.conda.io/en/latest/miniconda.html) or [conda](https://docs.conda.io/) installed.
 
 
 ### Install require softwares
@@ -53,7 +53,7 @@ git clone https://github.com/cancersysbio/BreastCancerSpatialProteomics.git BCSP
 ``` bash
 jupeter notebook
 ```
-And locatet the `DSP_IHC_comparison.ipynb` Notebook in the Jupyter browser.
+And locate the `DSP_IHC_comparison.ipynb` Notebook in the Jupyter browser.
 
 ### Other scripts can be run as follows:
 
@@ -64,7 +64,7 @@ Rscript volcano_waterfall.R
 python classifier.py
 ```
 ``` bash
-classifier_test.py
+python classifier_test.py
 ```
 
 
