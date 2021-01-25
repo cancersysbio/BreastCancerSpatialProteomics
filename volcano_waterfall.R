@@ -8,6 +8,7 @@ library(ggeffects)
 library(vioplot)
 
 # read in data as "data.norm" this is the data frame that is used in the functions below
+data.norm <- read.delim('norm_data.txt', sep=" ", colnames=F)
 
 tumor.probe.names = c("Beta.Catenin","pS6","PTEN","P.ERK","S6","Ki.67", "AKT","PSTAT3","p.AKT","Her2",
                       "Pan.Cytokeratin")
