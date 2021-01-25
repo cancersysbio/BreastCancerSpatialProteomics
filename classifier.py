@@ -13,6 +13,7 @@ import pystan
 import arviz as az
 # cf.go_offline()
 import os
+from IPython import get_ipython
 from itertools import combinations
 get_ipython().run_line_magic('reload_ext', 'blackcellmagic')
 from joblib import Parallel, delayed
@@ -49,7 +50,7 @@ random_state =
 # read in the DSP data file
 # file must contain a column called pCR, ER and pam50 status as well as the prootein markers of interest 
 #(see markers list below)
-dat_f =
+dat_f = "cd45_R_data.txt"
 
 raw_df = pd.read_csv(dat_f, sep="\t", index_col=0)
 raw_df = raw_df.rename(mapper=lambda x: x.replace(".", "_"), axis=1)
