@@ -12,6 +12,8 @@
 
 `cd45_R_data.txt` - contain the on-treatment CD45 IHC and DSP values using to compare single feature CD45 IHC and DSP in Figure 6.  
 
+`cohort_features.xlsx` - contains raw data for each clinical covariate for each case, used to generate Figure 6d.
+
 ## Code description
 
 `volcano_waterfall.R` is an R v3.6.0 cript with example functions used to run the linear mixed-effect models and generate the volcano plots and waterfall plots shown in Figures 2a, 2b, 2d, 2e as well as the Extended Data 1,3,4,5,7, and 9.
